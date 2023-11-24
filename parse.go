@@ -54,7 +54,8 @@ func Parse(fn func(rune)error, runescanner io.RuneScanner) error {
 			if expected != actual {
 				err := runescanner.UnreadRune()
 				if nil != err {
-					return errProblemUnreadingCharacterNumber(nextRead, err, r)
+					characterNumber := nextRead - 1
+					return errProblemUnreadingCharacterNumber(characterNumber, err, r)
 				}
 
 				return erorr.Errorf("brace: expected first character of brace-string literal to be a %q (%U), but actually was %q (%U)", expected, expected, actual, actual)
