@@ -3,7 +3,7 @@ package brace
 import (
 	"io"
 
-	"sourcecode.social/reiver/go-erorr"
+	"github.com/reiver/go-erorr"
 )
 
 // Parse parses a brace-string literal from a io.RuneScanner.

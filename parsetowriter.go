@@ -3,7 +3,7 @@ package brace
 import (
 	"io"
 
-	"sourcecode.social/reiver/go-utf8"
+	"github.com/reiver/go-utf8"
 )
 
 // ParseToBytes is similar to Parse except it writes the brace-string literal as an io.Writer.

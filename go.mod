@@ -1,8 +1,8 @@
-module sourcecode.social/reiver/go-brace
+module github.com/reiver/go-brace
 
 go 1.20
 
 require (
-	sourcecode.social/reiver/go-erorr v0.0.0-20230922202459-231149d185a1 // indirect
-	sourcecode.social/reiver/go-utf8 v0.0.0-20230818133704-d38de8eb477f // indirect
+	github.com/reiver/go-erorr v0.0.0-20240801233437-8cbde6d1fa3f
+	github.com/reiver/go-utf8 v2.0.2-0.20240825112455-f6c2bd439d4f+incompatible
 )

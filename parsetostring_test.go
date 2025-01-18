@@ -6,9 +6,9 @@ import (
 	"io"
 	"strings"
 
-	"sourcecode.social/reiver/go-utf8"
+	"github.com/reiver/go-utf8"
 
-	"sourcecode.social/reiver/go-brace"
+	"github.com/reiver/go-brace"
 )
 
 func TestParseToString(t *testing.T) {

@@ -10,17 +10,17 @@ For example:
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/sourcecode.social/reiver/go-brace
+Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-brace
 
-[![GoDoc](https://godoc.org/sourcecode.social/reiver/go-brace?status.svg)](https://godoc.org/sourcecode.social/reiver/go-brace)
+[![GoDoc](https://godoc.org/github.com/reiver/go-brace?status.svg)](https://godoc.org/github.com/reiver/go-brace)
 
 ## Example
 
 Here is an example:
 ```golang
 
-import "sourcecode.social/reiver/go-brace"
-import "sourcecode.social/reiver/go-utf-8"
+import "github.com/reiver/go-brace"
+import "github.com/reiver/go-utf8"
 
 // ...
 
@@ -51,14 +51,14 @@ fmt.Print(bracestring)
 
 To import package **brace** use `import` code like the follownig:
 ```
-import "sourcecode.social/reiver/go-brace"
+import "github.com/reiver/go-brace"
 ```
 
 ## Installation
 
 To install package **brace** do the following:
 ```
-GOPROXY=direct go get https://sourcecode.social/reiver/go-brace
+GOPROXY=direct go get github.com/reiver/go-brace
 ```
 
 ## Author
