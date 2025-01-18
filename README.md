@@ -63,4 +63,4 @@ GOPROXY=direct go get github.com/reiver/go-brace
 
 ## Author
 
-Package **brace** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **brace** was written by [Charles Iliya Krempeaux](http://reiver.link)
